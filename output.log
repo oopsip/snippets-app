@@ -1,0 +1,37 @@
+INFO:root:Writing {!r}:{!r} to {!r}
+INFO:root:Writing {!r}:{!r} to {!r}
+INFO:root:Writing {!r}:{!r} to {!r}
+INFO:root:Writing {!r}:{!r} to {!r}
+INFO:root:Writing 'spam':'eggs' to 'snippets.csv'
+DEBUG:root:Openning file
+DEBUG:root:Writing snippet to file
+DEBUG:root:Write successful
+INFO:root:Writing 'green eggs':'ham' to 'snippets.csv'
+DEBUG:root:Openning file
+DEBUG:root:Writing snippet to file
+DEBUG:root:Write successful
+INFO:root:starting snippets
+INFO:root:Constructing parser
+INFO:root:starting snippets
+INFO:root:Constructing parser
+INFO:root:starting snippets
+INFO:root:Constructing parser
+INFO:root:starting snippets
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:starting snippets
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:starting snippets
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:starting snippets
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:starting snippets
+INFO:root:Constructing parser
+DEBUG:root:Constructing put subparser
+INFO:root:Writing 'hello':'hi' to 'snippets.csv'
+DEBUG:root:Openning file
+DEBUG:root:Writing snippet to file
+DEBUG:root:Write successful
