@@ -7,7 +7,7 @@ logging.basicConfig(filename="output.log", level=logging.DEBUG)
 
 def put(name, snippet, filename):
 	""" Store a snippet with an associated name in the CSV file """
-	logging.info("Writing {!r}:{!r} to {!r}".format(name, snippet, filename))
+	logging.info("Writing {!r}:::::{!r} to {!r}".format(name, snippet, filename))
 	logging.debug("Openning file")
 	with open(filename, "a") as f:
 		writer = csv.writer(f)
@@ -24,13 +24,9 @@ def get(name, filename):
 		reader = csv.DictReader(f, delimiter=',')
 		logging.debug("reading snippet from file")
 		for line in reader:
-			if name == line['csvname']:
-				print line['snippet']
-				break
-		else:
-				print "there is no match"
-
-				#logging.debug("reading succcessful")
+		    if name == line['csvname']:
+			print line['snippet']       
+    #logging.debug("reading succcessful")
 	
 def make_parser():
 	""" Construct the command line parser """
